@@ -95,7 +95,7 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'SOP Wiki',
-            to: '/docs/general-lab-stuff',
+            to: '/docs/lab-life-logistics',
           },
           {
             href: 'https://github.com/mschuldi-lab/schuldiner-sop',
