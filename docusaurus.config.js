@@ -8,12 +8,12 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://Schuldiner-Lab.github.io',
+  url: 'https://mschuldi-lab.github.io',
   // Set the /<baseUrl>/ pathname previously configured in GitHub Pages
   baseUrl: '/schuldiner-sop/',
 
   // GitHub pages deployment config.
-  organizationName: 'Schuldiner-Lab', // Usually your GitHub org/user name.
+  organizationName: 'mschuldi-lab', // Usually your GitHub org/user name.
   projectName: 'schuldiner-sop', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -35,7 +35,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // This allows lab members to edit pages directly:
           editUrl:
-            'https://github.com/Schuldiner-Lab/schuldiner-sop/tree/main/',
+            'https://github.com/mschuldi-lab/schuldiner-sop/tree/main/',
         },
         blog: false, // Disabling the blog for now
         theme: {
@@ -63,7 +63,7 @@ const config = {
         title: 'Schuldiner Lab',
         logo: {
           alt: 'Lab Logo',
-          src: 'img/logo.svg', // You can replace this file later
+          src: 'img/Schuldiner_logo_black.png', // You can replace this file later
         },
         items: [
           {
@@ -73,7 +73,7 @@ const config = {
             label: 'SOP Wiki',
           },
           {
-            href: 'https://github.com/Schuldiner-Lab/schuldiner-sop',
+            href: 'https://github.com/mschuldi-lab/schuldiner-sop',
             label: 'GitHub',
             position: 'right',
           },
