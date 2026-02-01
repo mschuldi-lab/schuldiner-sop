@@ -31,11 +31,6 @@ const config = {
     },
   },
 
-  scripts: [
-    {
-      src: 'https://hypothes.is/embed.js',
-      async: true,
-  },
   
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,6 +39,13 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  scripts: [
+    {
+      src: 'https://hypothes.is/embed.js',
+      async: true,
+    },
+  ],
 
   presets: [
     [
