@@ -48,7 +48,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // This allows lab members to edit pages directly:
           editUrl:
-            'https://github.com/mschuldi-lab/schuldiner-sop/tree/main/',
+            'https://github.com/mschuldi-lab/schuldiner-sop/tree/main/',        
         },
         blog: false, // Disabling the blog for now
         theme: {
@@ -84,6 +84,10 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'SOP Wiki',
+          },
+          {
+            label: 'General Lab Stuff',
+            to: '/docs/general-lab-stuff', // <--- WAS /docs/intro
           },
           {
             href: 'https://github.com/mschuldi-lab/schuldiner-sop',
