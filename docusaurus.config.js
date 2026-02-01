@@ -84,10 +84,7 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'SOP Wiki',
-          },
-          {
-            label: 'General Lab Stuff',
-            to: '/docs/general-lab-stuff', // <--- WAS /docs/intro
+            to: '/docs/general-lab-stuff',
           },
           {
             href: 'https://github.com/mschuldi-lab/schuldiner-sop',
@@ -104,7 +101,7 @@ const config = {
             items: [
               {
                 label: 'General Lab Stuff',
-                to: '/docs/intro',
+                to: '/docs/general-lab-stuff',              
               },
             ],
           },
