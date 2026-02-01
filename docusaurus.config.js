@@ -111,8 +111,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'General Lab Stuff',
-                to: '/docs/general-lab-stuff',              
+                label: 'Lab Life',
+                to: '/docs/lab-life-logistics',              
               },
             ],
           },
