@@ -18,6 +18,19 @@ const config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
+  markdown: {
+    format: 'mdx',
+    mermaid: true,
+    preprocessor: ({filePath, fileContent}) => {
+      return fileContent;
+    },
+    mdx1Compat: {
+      comments: true,
+      admonitions: true,
+      headingIds: true,
+    },
+  },
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
