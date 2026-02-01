@@ -1,0 +1,42 @@
+# Microscopy & High-Throughput
+
+## Microscopy (General)
+
+:::danger Controls
+* **Background:** Strain with NO fluorophore.
+* **Bleedthrough:** Strains with single tags (for co-localization).
+:::
+
+* **Oil Objective:** Clean with 100% ethanol/isopropanol. Label plates used with oil.
+* **Brightfield:** Always take a BF image for segmentation.
+
+## Eva Microscope Startup
+:::tip Startup Sequence
+1.  **Main Power:** Wait for start-up noises.
+2.  **RTC Controller:** Wait for **two beeps**.
+3.  **Lasers:** Wait for "Laser Ready" light.
+4.  **TPC:** Turn on **before** opening software.
+:::
+
+### Troubleshooting Table
+| Problem | Solution |
+| :--- | :--- |
+| **Connectivity** | Restart TPC. Check Tango box (blue light). |
+| **Focus** | Clean plate/objective. Check Z-limits (Yeast: 6335µm). |
+| **CellSens Issues** | Perform "ScanR-bypass": Close CellSens -> Open/Close ScanR -> Re-open CellSens. |
+
+## Singer & SGA
+
+:::warning Singer Pads
+* Put dirty pads **IMMEDIATELY** in bleach. Dried yeast acts like glue.
+* Do not overfill washing boxes (pads should not float).
+* Check pins before use—dispose of crooked pins.
+:::
+
+* **Ordering Plates:** Order 20% more than needed to account for errors.
+* **SGA Spores:** Keep SPO plates outside the fridge after replicating. Sporulation is inefficient; you may need to go back to them.
+* **Libraries:** If picking from libraries, **always streak to singles**. Perform check PCR.
+
+:::info Library Cards
+Use the "library cards" file in the Libraries folder to track missing colonies when refreshing.
+:::
