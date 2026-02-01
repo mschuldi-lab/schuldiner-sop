@@ -31,6 +31,12 @@ const config = {
     },
   },
 
+  scripts: [
+    {
+      src: 'https://hypothes.is/embed.js',
+      async: true,
+  },
+  
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -76,7 +82,10 @@ const config = {
         title: 'Schuldiner Lab',
         logo: {
           alt: 'Lab Logo',
-          src: 'img/Schuldiner_logo_black.png', // You can replace this file later
+          // 1. Logo for Light Mode (usually dark text/black)
+          src: 'img/Schuldiner_logo_white.png',
+          // 2. Logo for Dark Mode (usually light text/white)
+          srcDark: 'img/Schuldiner_logo_black.png', 
         },
         items: [
           {
