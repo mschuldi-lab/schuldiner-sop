@@ -30,7 +30,19 @@
 }
 
 
-* --- SEARCH BAR CUSTOMIZATION --- */
+/* --- SEARCH BAR CUSTOMIZATION --- */
+
+/* 1. Center the Search Bar in the Navbar */
+/* We use absolute positioning to force it to the middle, away from Hypothesis */
+@media (min-width: 997px) {
+  .navbar__search {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+  }
+}
 /* 2. Make the Search Input Larger and Distinct */
 .navbar__search-input {
   width: 16rem;              /* Wider by default */
@@ -54,15 +66,4 @@ html[data-theme='dark'] .navbar__search-input {
   outline: none;
   border-color: var(--ifm-color-primary);
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-/* 3. Center the Search Bar in the Navbar */
-/* We use absolute positioning to force it to the middle, away from Hypothesis */
-@media (min-width: 997px) {
-  .navbar__search {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-  }
 }
