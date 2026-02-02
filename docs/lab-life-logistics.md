@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: 🔴🟠🟡🟢🔵🟣 Lab life & Logistics
+title: 🌈 Lab life & Logistics
 slug: /lab-life-logistics
 ---
 

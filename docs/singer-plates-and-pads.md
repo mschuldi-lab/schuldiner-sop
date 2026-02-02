@@ -1,6 +1,6 @@
 ---
 sidebar_position: 10
-title: 👨‍🎤🍽️ Singer Plates and Pads
+title: 🍽️ Singer Plates and Pads
 slug: /singer-plates-and-pads
 ---
 
