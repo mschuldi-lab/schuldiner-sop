@@ -15,7 +15,7 @@ This wiki is a living document created to make our lab work easier, safer, and m
 ### 1. Create a GitHub Account
 To comment or edit, you need a free GitHub account.
 * **Sign up:** [github.com/join](https://github.com/join)
-* **Join the Lab:** Send your username to **Benjamin** to be added to the `mschuldi-lab` organization.
+* **Join the Lab:** Send your username to **Benjamin** (@benjamin-elusers) to be added to the lab github organization: `mschuldi-lab`
 
 ### 2. How to Edit a Page
 Found a typo? Wrong buffer concentration? Want to add a new trick?
@@ -111,7 +111,7 @@ Reference-style:
 ### Code and Syntax Highlighting
 Inline `code` has `back-ticks` around it.
 
-Blocks of code use three back-ticks or four spaces:
+Blocks of code use three back-ticks ` ``` ` or four spaces:
 
 ```javascript
 var s = "JavaScript syntax highlighting";
@@ -162,7 +162,7 @@ ___
 To force a line break without a paragraph gap, end a line with two spaces.
 
 ```markdown
-Here is a line for people who text,  
+Here is a line for people who text,__  
 and want to keep it on the same block.
 ```
 
@@ -177,7 +177,7 @@ Standard Markdown doesn't support video embeds, but Docusaurus does via basic HT
 
 ## Part 3: Docusaurus Special Features
 
-These features make our wiki look professional. Use them liberally!
+These features make our wiki look more organized. Use them at your will!
 
 ### Admonitions (Callout Boxes)
 Use these to highlight critical info.

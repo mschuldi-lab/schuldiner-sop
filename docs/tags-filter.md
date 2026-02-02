@@ -1,6 +1,12 @@
-# 🛡️ Safety & Tips Dashboard
+---
+sidebar_position: 2
+title: 🔍 Filter by tags
+slug: /tags-filter
+---
 
-Click a category below to see all protocols containing that tag:
+# 🔍 Filter by tags
+
+Click a category below to see all items containing that tag:
 
 * [🔴 View All DANGER Tags](pathname:///schuldiner-sop/search?q=danger)
 * [🟡 View All TIPS](pathname:///schuldiner-sop/search?q=tip)

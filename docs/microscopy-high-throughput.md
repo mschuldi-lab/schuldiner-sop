@@ -1,3 +1,9 @@
+---
+title: 🖥️ Microscopy & High-Throughput
+slug: /microscopy-high-throughput
+---
+
+
 # Microscopy & High-Throughput
 
 ## Microscopy (General)
