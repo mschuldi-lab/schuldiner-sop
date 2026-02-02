@@ -24,7 +24,7 @@ If you have a contaminated media bottle:
 :::
 
 ### Safety & Security
-:::danger Last Person Leaving
+:::warning Last Person Leaving
 If you are the last person to leave (or if the lab is empty):
 * **Lock Main Door:** Bang it shut (do not turn the key).
 * **Lock Kitchen Door:** Push the silver lock down.
@@ -71,7 +71,7 @@ When a package arrives:
 
 ## Files & Data Storage
 
-:::danger Data Backup
+:::warning Data Backup
 It is **YOUR** responsibility to back up data. Use the cloud (Dropbox) or an external hard disk. When leaving the lab, you **MUST** retain a compressed copy of your files.
 :::
 
