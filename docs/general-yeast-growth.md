@@ -1,3 +1,9 @@
+---
+sidebar_position: 9
+title: 🌱 General Yeast Growth
+slug: /general-yeast-growth
+---
+
 # General Yeast Growth
 
 * If you have a long experiment and you want to start early with yeast in log phase, you can dilute in the evening and grow it overnight to hit mid-log in the morning. There is a calculator in the Dropbox. For that you should put starters on in the morning a day before, so you’ll be able to dilute it in the evening.

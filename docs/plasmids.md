@@ -1,3 +1,10 @@
+---
+sidebar_position: 5
+title: 🧬 Plasmids
+slug: /plasmids
+---
+
+
 # Plasmids
 
 

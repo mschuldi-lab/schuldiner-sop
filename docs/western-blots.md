@@ -1,3 +1,10 @@
+---
+sidebar_position: 13
+title: 𝄜 Western blots
+slug: /western-blots
+---
+
+
 # Western blots
 
 

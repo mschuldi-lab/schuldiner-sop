@@ -95,7 +95,7 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'SOP Wiki',
-            to: '/docs/lab-life-logistics',
+            to: '/docs/getting-started',
           },
           {
             href: 'https://github.com/mschuldi-lab/schuldiner-sop',
@@ -111,8 +111,56 @@ const config = {
             title: 'Docs',
             items: [
               {
+                label: 'General Stuff',
+                to: '/docs/general-lab-stuff',              
+              },
+              {
                 label: 'Lab Life',
                 to: '/docs/lab-life-logistics',              
+              },
+              {
+                label: 'Files & Storage',
+                to: '/docs/files-and-electronic-storage',              
+              },
+              {
+                label: 'Plasmids',
+                to: '/docs/plasmids',              
+              },
+              {
+                label: 'DNA gels',
+                to: '/docs/dna-gels',              
+              },             
+              {
+                label: 'Strains & Media',
+                to: '/docs/strains-and-media',              
+              },
+              {
+                label: 'Transformations',
+                to: '/docs/transformations',              
+              },
+              {
+                label: 'General Yeast Growth',
+                to: '/docs/general-yeast-growth',              
+              },
+              {
+                label: 'Singer Plates and Pads',
+                to: '/docs/singer-plates-and-pads',              
+              },
+              {
+                label: 'SGA & Libraries',
+                to: '/docs/sga-and-libraries',              
+              },
+              {
+                label: 'Western Blots',
+                to: '/docs/western-blots',              
+              },
+              {
+                label: 'Microscopy',
+                to: '/docs/microscopy',              
+              },
+              {
+                label: 'Orders',
+                to: '/docs/orders',              
               },
             ],
           },

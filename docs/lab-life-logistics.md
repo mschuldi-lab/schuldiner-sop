@@ -1,3 +1,9 @@
+---
+sidebar_position: 3
+title: 🔴🟠🟡🟢🔵🟣 Lab life & Logistics
+slug: /lab-life-logistics
+---
+
 # Lab Life & Logistics
 
 ## General Lab Stuff

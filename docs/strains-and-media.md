@@ -1,3 +1,10 @@
+---
+sidebar_position: 7
+title: 🧪 Strains & Media
+slug: /strains-and-media
+---
+
+
 # Strains and Media
 
 * W303 strains cannot grow on media with our OMM Amino Acid mix.

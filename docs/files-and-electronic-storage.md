@@ -1,3 +1,9 @@
+---
+sidebar_position: 4
+title: 💽 Files and Electronic Storage
+slug: /files-and-electronic-storage
+---
+
 # Files and Electronic Storage
 
 * The password for general lab databases is “Schuldiner”

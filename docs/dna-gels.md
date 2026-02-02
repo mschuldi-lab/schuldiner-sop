@@ -1,3 +1,10 @@
+---
+sidebar_position: 6
+title: ☷ DNA gels
+slug: /dna-gels
+---
+
+
 # DNA Gels
 
 * A DNA gel can be kept in liquid for a few hours after preparation but it is better not to use it after a night in liquid as the gel-red diffuses out and the signal becomes less clear. If you need to use it the next day, then you can wrap it in clingfilm (saran wrap) and store it in the fridge.

@@ -1,3 +1,9 @@
+---
+sidebar_position: 12
+title: 🔬 Microscopy
+slug: /microscopy
+---
+
 # Microscopy
 
 

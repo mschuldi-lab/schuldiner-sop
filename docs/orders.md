@@ -1,3 +1,10 @@
+---
+sidebar_position: 14
+title: 📦 Orders
+slug: /orders
+---
+
+
 # Orders
 
 

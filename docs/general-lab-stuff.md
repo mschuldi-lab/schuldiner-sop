@@ -1,3 +1,10 @@
+---
+sidebar_position: 2
+title: 🥼 General Lab Stuff
+slug: /general-lab-stuff
+---
+
+
 # General Lab Stuff
 
 
