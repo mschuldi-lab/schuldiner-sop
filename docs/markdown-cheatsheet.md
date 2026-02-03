@@ -151,7 +151,7 @@ Reference-style:
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
-![My Lab Image](/img/Schuldiner_logo_white.png)
+![My Lab Image](/img/Schuldiner_logo_white_small.png)
 
 
 
@@ -257,19 +257,24 @@ To force a line break without a paragraph gap, end a line with two spaces.
 
 ```markdown
 Here is a line for people who text,__  
+
 and want to keep it on the same block.
 ```
 
 **Preview**:
 
 Here is a line for people who text,  
+
 and want to keep it on the same block.
 
 
 
 
 ### YouTube Videos
-Standard Markdown doesn't support video embeds, but Docusaurus does via basic HTML or Plugins. The simplest way is a thumbnail link:
+
+Standard Markdown doesn't support video embeds, but Docusaurus does via basic HTML or Plugins. 
+
+The simplest way is a thumbnail link:
 
 ```markdown
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)

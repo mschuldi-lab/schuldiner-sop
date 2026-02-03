@@ -102,6 +102,17 @@ Great for hiding long lists or deep technical details.
 </details>
 ```
 
+**Preview:**
+
+<details>
+  <summary>Click to see the full recipe</summary>
+  
+  1. Mix A and B
+  2. Shake well
+  3. Enjoy
+</details>
+
+
 ### Tabs
 Useful for showing alternatives (e.g., Mac vs PC, or 50mL vs 500mL prep).
 
@@ -118,3 +129,21 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 ```
+
+**Preview:**
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="small" label="50mL Prep" default>
+    Use 5g of Agar.
+  </TabItem>
+  <TabItem value="large" label="500mL Prep">
+    Use 50g of Agar.
+  </TabItem>
+</Tabs>
+
+
+
+In addition, some HTML tags can be rendered within markdown.
