@@ -189,6 +189,11 @@ const config = {
                 label: 'Lab GitHub',
                 href: 'https://github.com/mschuldi-lab',
               },
+              {
+                label: 'Lab Website',
+                href: 'https://mayaschuldiner.wixsite.com/schuldinerlab',
+              },
+
             ],
           },
         ],
