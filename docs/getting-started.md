@@ -40,7 +40,6 @@ No need for web designing skills or any level of programming.
 The content on the website is written with a Markdown language which is a lightweight markup language for creating formatted text using a plain-text editor.
 
 The key goal of markdown is to be readable as-is, with the formatting instructions remaining quite simple.
-
  
 Refer to the next section for [a quick guide for writing Markdown formatted content](https://mschuldi-lab.github.io/schuldiner-sop/docs/markdown-cheatsheet)
 
@@ -70,18 +69,22 @@ Be careful! Procedures that require extra attention.
 :::
 ```
 
-Example preview:  
+**Preview:**
 
-:::note General information or context about a protocol.
+:::note **_Info_**
+General information or context about a protocol.
 :::
 
-:::tip **Pro Tip:** Use this for lab hacks or recommendations.
+:::tip **Pro Tip:** 
+Use this for lab hacks or recommendations.
 :::
 
-:::warning Be careful! Procedures that require extra attention.
+:::warning **Watch out!**
+Procedures that require extra attention.
 :::
 
-:::danger **SAFETY HAZARD:** Use this for toxic chemicals, radiation, or biohazards.
+:::danger **SAFETY HAZARD:** 
+Use this for toxic chemicals, radiation, or biohazards.
 :::
 
 ---
