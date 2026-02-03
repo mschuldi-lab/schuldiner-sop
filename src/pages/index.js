@@ -70,7 +70,12 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         
-        {/* --- NEW IMAGE SECTION --- */}
+
+
+        <Heading as="h1" className="hero__title">
+          Standard Operating Procedures
+        </Heading>
+
         <img 
           src="/schuldiner-sop/img/SOP_illustration.png" // Added leading slash for better path resolving
           alt="Schuldiner Lab SOP Illustration" // Important for accessibility
@@ -84,12 +89,6 @@ function HomepageHeader() {
             boxShadow: '0 4px 10px rgba(0,0,0,0.2)'  // adds a subtle shadow to make it pop
           }}
         />
-        {/* ------------------------- */}
-
-
-        <Heading as="h1" className="hero__title">
-          Standard Operating Procedures
-        </Heading>
         
         <h2 className="hero__subtitle">
           Edition 2025
