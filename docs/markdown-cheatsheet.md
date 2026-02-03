@@ -214,6 +214,7 @@ Colons can be used to align columns.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+
 ### Blockquotes
 ```markdown
 > Blockquotes are very handy in email to emulate reply text.

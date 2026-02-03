@@ -145,5 +145,39 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 
+### HTML in Docusaurus (MDX)
 
-In addition, some HTML tags can be rendered within markdown.
+Since Docusaurus uses MDX (Markdown + JSX), you can technically render almost any standard HTML tag.
+
+But there are specific rules because it is processed as React, not raw HTML.
+
+The Golden Rules:
+
+* Self-Closing Tags: All tags must be closed.
+
+❌ <br>, <img>, <hr>
+
+✅ <br />, <img />, <hr />
+
+* Attributes: Use camelCase for attributes.
+
+❌ class="my-class"
+
+✅ className="my-class"
+
+* Inline Styles: Styles must be objects, not strings.
+
+❌ style="color: red;"
+
+✅ style={{ color: 'red', marginTop: '10px' }}
+
+* Nesting: You cannot put block elements (like <div> or <h3>) inside inline elements (like <p>). This will crash the build (Hydration Error).
+
+* Commonly Used Tags:
+
+  * Layout: <div>, <span>, <section>, <article>
+
+  * Media: <img />, <iframe /> (great for embedding PDFs or Google Docs), <video> 
+
+  * Interactive: <details> and <summary> (creates a collapsible dropdown).
+
