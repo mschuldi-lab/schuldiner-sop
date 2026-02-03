@@ -72,7 +72,7 @@ function HomepageHeader() {
         
         {/* --- NEW IMAGE SECTION --- */}
         <img 
-          src="/img/SOP-illustration.png" // Added leading slash for better path resolving
+          src="/schuldiner-sop/img/SOP_illustration.png" // Added leading slash for better path resolving
           alt="Schuldiner Lab SOP Illustration" // Important for accessibility
           style={{
             maxWidth: '100%',      // Ensures it doesn't overflow on mobile
