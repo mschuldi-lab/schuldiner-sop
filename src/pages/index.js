@@ -17,33 +17,49 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   
   // State for dynamic data
-  const [lastUpdate, setLastUpdate] = useState('Loading date...');
+  const [lastUpdate, setLastUpdate] = useState({ date: 'Loading...', author: '' });
   const [contributors, setContributors] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function fetchData() {
       try {
-        // 1. Fetch Last Commit Date
+        // 1. Fetch Last Commit Date & Author
         const commitRes = await fetch(COMMITS_URL);
         const commitData = await commitRes.json();
+        
         if (commitData.length > 0) {
-          const dateObj = new Date(commitData[0].commit.committer.date);
-          setLastUpdate(dateObj.toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' }));
+          const commit = commitData[0];
+          const dateObj = new Date(commit.commit.committer.date);
+          
+          // Format: "February 3, 2026 at 3:30 PM"
+          const formattedDate = dateObj.toLocaleString("en-US", { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric',
+            hour: 'numeric',
+            minute: '2-digit'
+          });
+
+          // Get author: Try GitHub login first, fallback to Git commit name
+          const authorName = commit.author ? commit.author.login : commit.commit.author.name;
+
+          setLastUpdate({
+            date: formattedDate,
+            author: authorName
+          });
         }
 
         // 2. Fetch Contributors
         const contribRes = await fetch(CONTRIB_URL);
         const contribData = await contribRes.json();
         if (Array.isArray(contribData)) {
-          // We try to get the 'login' (username). 
-          // Note: GitHub API doesn't send full names in this public endpoint by default.
           setContributors(contribData.map(user => user.login));
         }
         setLoading(false);
       } catch (error) {
         console.error("Failed to fetch GitHub data:", error);
-        setLastUpdate("April 2025"); // Fallback to manual date
+        setLastUpdate({ date: "April 2025", author: "Unknown" });
         setLoading(false);
       }
     }
@@ -61,9 +77,12 @@ function HomepageHeader() {
           Edition 2025
         </h2>
         
-        {/* Dynamic Last Update */}
+        {/* Dynamic Last Update with Time & Author */}
         <div style={{ fontSize: '1.2rem', marginBottom: '2rem', opacity: 0.9 }}>
-          Last Updated: <strong>{lastUpdate}</strong>
+          Last Updated: <strong>{lastUpdate.date}</strong> 
+          {lastUpdate.author && (
+            <span> by <strong>@{lastUpdate.author}</strong></span>
+          )}
         </div>
 
         <div style={{ maxWidth: '800px', margin: '0 auto 2rem auto', fontSize: '1.2rem', fontStyle: 'italic' }}>

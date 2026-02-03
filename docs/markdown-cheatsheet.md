@@ -134,7 +134,7 @@ Reference-style:
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
-![My Lab Image](/static/img/Schuldiner_logo_white.png)
+![My Lab Image](/img/Schuldiner_logo_white.png)
 ```
 
 **Preview**:
@@ -147,7 +147,7 @@ Reference-style:
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
-![My Lab Image](/static/img/Schuldiner_logo_white.png)
+![My Lab Image](/img/Schuldiner_logo_white.png)
 
 
 
