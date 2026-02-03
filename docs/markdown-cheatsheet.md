@@ -120,9 +120,13 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 [You can use numbers for reference-style link definitions][1]
 
-[1]: [https://slashdot.org](https://slashdot.org)
-[arbitrary case-insensitive reference text]: [https://www.mozilla.org](https://www.mozilla.org)
+Or leave it empty and use the [link text itself]
 
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.somewebsite.org
+[1]: http://somewebsite.org
+[link text itself]: http://www.somewebsite.com
 
 ### Images
 ```markdown
