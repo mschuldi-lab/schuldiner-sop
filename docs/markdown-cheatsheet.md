@@ -106,7 +106,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 [You can use numbers for reference-style link definitions][1]
 
-[1]: [http://slashdot.org](http://slashdot.org)
+[1]: [https://slashdot.org](https://slashdot.org)
 [arbitrary case-insensitive reference text]: [https://www.mozilla.org](https://www.mozilla.org)
 ```
 
@@ -120,7 +120,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 [You can use numbers for reference-style link definitions][1]
 
-[1]: [http://slashdot.org](http://slashdot.org)
+[1]: [https://slashdot.org](https://slashdot.org)
 [arbitrary case-insensitive reference text]: [https://www.mozilla.org](https://www.mozilla.org)
 
 
