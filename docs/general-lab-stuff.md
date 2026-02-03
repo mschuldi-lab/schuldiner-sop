@@ -159,7 +159,6 @@ slug: /general-lab-stuff
 :::
 
 
-
 :::tip
 - Avoid working on other people’s benches. If you must work on someone else’s bench, ask for their permission first and then make sure to leave it EXACTLY as you found it and do not use their tips/pipettes/buffers etc.
 :::
@@ -197,30 +196,28 @@ slug: /general-lab-stuff
 :::
 
 
-Kitchen – Everyone appreciates if you bring food/drinks when coming back from abroad.
+## Kitchen 
+
+* Everyone appreciates if you bring food/drinks when coming back from abroad.
 
 * Mark your food in the fridge with name and date. Put stuff in sealed boxes (not hamgashi’yot)
 
-
-:::note
-- We have a small grocery list hanging on our fridge where we can add items that should be bought for general use for the lab (i.e. salt, oil, condiments, tea, coffee etc.). Please use it only for such requests and not for personal food items.
+:::note Grocery list
+We have a small grocery list hanging on our fridge where we can add items that should be bought for general use for the lab (i.e. salt, oil, condiments, tea, coffee etc.). Please use it only for such requests and not for personal food items.
 :::
 
-
-
-:::note
-- Please always wash your dishes immediately and leave the kitchen sink clean. Store opened snacks in one of the sealable boxes from the bottom drawer in the kitchen. Do not leave cups on your desk.
+:::note Shared space
+Please always wash your dishes immediately and leave the kitchen sink clean. Store opened snacks in one of the sealable boxes from the bottom drawer in the kitchen. Do not leave cups on your desk.
 :::
-
 
 * Dirty towels should be put in the plastic bag on the shelf under the window.
 
-
-:::note
-- Please make sure the garbage can is closed hermetically.
+:::note Cleanliness
+Please make sure the garbage can is closed hermetically.
 :::
 
+:::warning Kosherness
+ The right middle drawer in the kitchen is for kosher dishes. If you don't know what that means, don't use the drawer or the dishes and don’t put your dishes there.
+:::
 
-* The right middle drawer in the kitchen is for kosher dishes. If you don't know what that means, don't use the drawer or the dishes and don’t put your dishes there.
-
-– The person on kitchen duty (once in the morning and evening) will put dishes back to their place when they are dry (after everyone cleaned their own things) and makes sure that food is packed away correctly. Hanni will send you a calendar invitation for kitchen duty. In case you cannot do it, please find someone to replace you.
+* The person on kitchen duty (once in the morning and evening) will put dishes back to their place when they are dry (after everyone cleaned their own things) and makes sure that food is packed away correctly. Hanni will send you a calendar invitation for kitchen duty. In case you cannot do it, please find someone to replace you.

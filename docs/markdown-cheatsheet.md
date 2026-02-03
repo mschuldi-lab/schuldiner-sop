@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 title: ✍️ Markdown cheatsheet
 slug: /markdown-cheatsheet
 ---
@@ -9,7 +9,7 @@ slug: /markdown-cheatsheet
 
 This guide covers standard Markdown syntax used on GitHub.
 
-### Headers
+## Headers
 ```markdown
 # H1 - Main Title (Use once)
 ## H2 - Major Section
@@ -29,7 +29,7 @@ This guide covers standard Markdown syntax used on GitHub.
 ###### H6 - Smallest Header
 
 
-### Emphasis
+## Emphasis
 ```markdown
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
@@ -51,7 +51,7 @@ Combined emphasis with **asterisks and _underscores_**.
 Strikethrough uses two tildes. ~~Scratch this.~~
 
 
-### Lists
+## Lists
 
 **Unordered (Bullet) Lists**
 ```markdown
@@ -96,7 +96,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 
 
-### Links
+## Links
 ```markdown
 [I'm an inline-style link](https://www.google.com)
 
@@ -128,7 +128,7 @@ Some text to show that the reference links can follow later.
 [1]: http://somewebsite.org
 [link text itself]: http://www.somewebsite.com
 
-### Images
+## Images
 ```markdown
 Inline-style: 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
@@ -155,7 +155,7 @@ Reference-style:
 
 
 
-### Code and Syntax Highlighting
+## Code and Syntax Highlighting
 Inline `code` has `back-ticks` around it.
 
 Blocks of code use three back-ticks ` ``` ` or four spaces:
@@ -195,7 +195,7 @@ print s
 ```
 
 
-### Tables
+## Tables
 Colons can be used to align columns.
 
 ```markdown
@@ -215,7 +215,7 @@ Colons can be used to align columns.
 | zebra stripes | are neat      |    $1 |
 
 
-### Blockquotes
+## Blockquotes
 ```markdown
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
@@ -235,7 +235,7 @@ Quote break.
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
 
-### Horizontal Rules
+## Horizontal Rules
 Three or more dashed, asterisks, or underscores.
 
 ```markdown
@@ -253,7 +253,7 @@ ___
 
 
 
-### Line Breaks
+## Line Breaks
 To force a line break without a paragraph gap, end a line with two spaces.
 
 ```markdown
@@ -270,8 +270,7 @@ and want to keep it on the same block.
 
 
 
-
-### YouTube Videos
+## YouTube Videos
 
 Standard Markdown doesn't support video embeds, but Docusaurus does via basic HTML or Plugins. 
 

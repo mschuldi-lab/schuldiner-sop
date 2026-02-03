@@ -145,7 +145,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 
-### Advanced customization: HTML in Docusaurus (MDX)
+### Advanced customization (HTML tags)
 
 Since Docusaurus uses MDX (Markdown + JSX), you can technically render almost any standard HTML tag.
 
