@@ -200,6 +200,22 @@ Be careful! Procedures that require extra attention.
 :::
 ```
 
+Example preview:  
+
+:::note General information or context about a protocol.
+:::
+
+:::tip **Pro Tip:** Use this for lab hacks or recommendations.
+:::
+
+:::warning Be careful! Procedures that require extra attention.
+:::
+
+:::danger **SAFETY HAZARD:** Use this for toxic chemicals, radiation, or biohazards.
+:::
+
+---
+
 ### Collapsible Details
 Great for hiding long lists or deep technical details.
 
