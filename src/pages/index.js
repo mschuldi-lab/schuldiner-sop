@@ -22,6 +22,7 @@ function HomepageHeader() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // ... (Keep your existing useEffect code here, it hasn't changed) ...
     async function fetchData() {
       try {
         // 1. Fetch Last Commit Date & Author
@@ -32,7 +33,6 @@ function HomepageHeader() {
           const commit = commitData[0];
           const dateObj = new Date(commit.commit.committer.date);
           
-          // Format: "February 3, 2026 at 3:30 PM"
           const formattedDate = dateObj.toLocaleString("en-US", { 
             year: 'numeric', 
             month: 'long', 
@@ -69,6 +69,24 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
+        
+        {/* --- NEW IMAGE SECTION --- */}
+        <img 
+          src="/img/SOP-illustration.png" // Added leading slash for better path resolving
+          alt="Schuldiner Lab SOP Illustration" // Important for accessibility
+          style={{
+            maxWidth: '100%',      // Ensures it doesn't overflow on mobile
+            height: 'auto',        // Maintains aspect ratio
+            width: '450px',        // Sets a balanced maximum size for desktop
+            display: 'block',      // Required for margin auto to work
+            margin: '0 auto 2rem auto', // Center horizontally and add space below
+            borderRadius: '12px',  // adds a nice rounded corner effect
+            boxShadow: '0 4px 10px rgba(0,0,0,0.2)'  // adds a subtle shadow to make it pop
+          }}
+        />
+        {/* ------------------------- */}
+
+
         <Heading as="h1" className="hero__title">
           Standard Operating Procedures
         </Heading>
