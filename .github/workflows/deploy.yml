@@ -5,6 +5,7 @@ on:
     branches:
       - main
 
+# This cancels old builds if you push new commits quickly
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -19,18 +20,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      # Use Node 20 and cache YARN (matches your local setup)
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: yarn
+          cache: npm
 
-      # Install using yarn.lock (frozen-lockfile is safer for CI)
+      # "npm ci" requires package-lock.json to exist. 
+      # If this fails, change it to "npm install"
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm ci
 
       - name: Build website
-        run: yarn build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
