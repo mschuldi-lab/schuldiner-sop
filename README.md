@@ -4,9 +4,10 @@
 ![Maintained By](https://img.shields.io/badge/Maintained%20by-Schuldiner%20Lab-blue)
 ![Built With](https://img.shields.io/badge/Built%20with-Docusaurus-green)
 
-Welcome to the digital evolution of our lab's *Standard Operating Procedures*! 
+## Welcome to the digital evolution of our lab's ***Standard Operating Procedures***! 
 
-This project moves our collective knowledge and experience from static Word documents into a **live, searchable, and version-controlled website**. It is designed to be the single source of truth for guidelines and useful information, ensuring everyone has access to it.
+This project moves our collective knowledge and experience from static Word documents into a **live, searchable, and version-controlled website**.  
+It is designed to be the single source of truth for guidelines and useful information, ensuring everyone has access to it.
 
 ---
 
