@@ -78,10 +78,23 @@ function HomepageHeader() {
         </h2>
         
         {/* Dynamic Last Update with Time & Author */}
-        <div style={{ fontSize: '1.2rem', marginBottom: '2rem', opacity: 0.9 }}>
-          Last Updated: <strong>{lastUpdate.date}</strong> 
+        <div style={{ 
+          fontSize: '1.2rem', 
+          marginBottom: '2rem', 
+          opacity: 0.9,
+          display: 'flex',          // Enables flexible layout
+          flexDirection: 'column',  // Stacks items vertically (new lines)
+          alignItems: 'center',     // Centers items horizontally
+          gap: '0.2rem'             // Adds a tiny space between the lines
+        }}>
+          <span>
+            Last Updated: <strong>{lastUpdate.date}</strong>
+          </span>
+          
           {lastUpdate.author && (
-            <br /><span> by <strong>@{lastUpdate.author}</strong></span>
+            <span>
+              by <strong>@{lastUpdate.author}</strong>
+            </span>
           )}
         </div>
 
