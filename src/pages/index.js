@@ -81,7 +81,7 @@ function HomepageHeader() {
         <div style={{ fontSize: '1.2rem', marginBottom: '2rem', opacity: 0.9 }}>
           Last Updated: <strong>{lastUpdate.date}</strong> 
           {lastUpdate.author && (
-            </br><span> by <strong>@{lastUpdate.author}</strong></span>
+            <br /><span> by <strong>@{lastUpdate.author}</strong></span>
           )}
         </div>
 
