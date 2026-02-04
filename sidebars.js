@@ -20,7 +20,7 @@ const sidebars = {
     // --- SEPARATOR ---
     {
       type: 'html',
-      value: '<span style="border-top: 1px solid #dadde1; margin: 20px 0 10px 0; display: block;"></span><span style="color: #606770; font-size: 0.8em; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">ℹ️ Intro</span>',
+      value: '<span style="color: #606770; font-size: 0.8em; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">ℹ️ Intro</span><span style="border-top: 1px solid #dadde1; margin: 20px 0 10px 0; display: block;"></span>',
       defaultStyle: true,
     },
 
@@ -41,7 +41,7 @@ const sidebars = {
     // --- SEPARATOR ---
     {
       type: 'html',
-      value: '<span style="border-top: 1px solid #dadde1; margin: 20px 0 10px 0; display: block;"></span><span style="color: #606770; font-size: 0.8em; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">📟 Original SOP sections</span>',
+      value: '<span style="color: #606770; font-size: 0.8em; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">📟 Original SOP sections</span><span style="border-top: 1px solid #dadde1; margin: 20px 0 10px 0; display: block;"></span>',
       defaultStyle: true,
     },
 
@@ -55,7 +55,7 @@ const sidebars = {
     // --- SEPARATOR ---
     {
       type: 'html',
-      value: '<span style="border-top: 1px solid #dadde1; margin: 20px 0 10px 0; display: block;"></span><span style="color: #606770; font-size: 0.8em; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">✨ Future Formats</span>',
+      value: '<span style="color: #606770; font-size: 0.8em; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">✨ Future Formats</span><span style="border-top: 1px solid #dadde1; margin: 20px 0 10px 0; display: block;"></span>',
       defaultStyle: true,
     },
 
