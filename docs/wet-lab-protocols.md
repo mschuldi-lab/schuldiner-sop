@@ -1,5 +1,6 @@
 ---
 title: 📋 Wet Lab Protocols
+caption: "summarized by Gemini 3 Pro (not from original SOP)"
 slug: /wet-lab-protocols
 ---
 

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
 title: 🌈 Lab life & Logistics
+caption: "Summarized by Gemini 3 Pro (not from original SOP)"
 slug: /lab-life-logistics
 ---
 
