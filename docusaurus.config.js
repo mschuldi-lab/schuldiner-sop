@@ -113,19 +113,15 @@ const config = {
             items: [
               {
                 label: 'General Stuff',
-                to: '/docs/general-lab-stuff',
-              },
-              {
-                label: 'Lab Life',
-                to: '/docs/lab-life-logistics',
+                to: '/docs/original_sop/general-lab-stuff',
               },
               {
                 label: 'Files & Storage',
-                to: '/docs/files-and-electronic-storage',
+                to: '/docs/original_sop/files-and-electronic-storage',
               },
               {
                 label: 'Orders',
-                to: '/docs/orders',
+                to: '/docs/original_sop/orders',
               },
             ],
           },
@@ -135,19 +131,19 @@ const config = {
             items: [
               {
                 label: 'Plasmids',
-                to: '/docs/plasmids',
+                to: '/docs/original_sop/plasmids',
               },
               {
                 label: 'DNA gels',
-                to: '/docs/dna-gels',
+                to: '/docs/original_sop/dna-gels',
               },
               {
                 label: 'Transformations',
-                to: '/docs/transformations',
+                to: '/docs/original_sop/transformations',
               },
               {
                 label: 'Strains & Media',
-                to: '/docs/strains-and-media',
+                to: '/docs/original_sop/strains-and-media',
               },
             ],
           },
@@ -157,23 +153,23 @@ const config = {
             items: [
               {
                 label: 'General Yeast Growth',
-                to: '/docs/general-yeast-growth',
+                to: '/docs/original_sop/general-yeast-growth',
               },
               {
                 label: 'Singer Plates',
-                to: '/docs/singer-plates-and-pads',
+                to: '/docs/original_sop/singer-plates-and-pads',
               },
               {
                 label: 'SGA & Libraries',
-                to: '/docs/sga-and-libraries',
+                to: '/docs/original_sop/sga-and-libraries',
               },
               {
                 label: 'Western Blots',
-                to: '/docs/western-blots',
+                to: '/docs/original_sop/western-blots',
               },
               {
                 label: 'Microscopy',
-                to: '/docs/microscopy',
+                to: '/docs/original_sop/microscopy',
               },
             ],
           },
