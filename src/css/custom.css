@@ -49,7 +49,7 @@
 
 /* 2. Style the Input Field */
 .navbar__search-input {
-  width: 18rem !important; /* Force wider base width */
+  width: 20rem !important; /* Force wider base width */
   background-color: rgba(0,0,0, 0.05) !important;
   border: 1px solid #ddd !important;
   border-radius: 20px !important;
@@ -59,6 +59,11 @@
   background-repeat: no-repeat !important;
   background-position: 0.75rem center !important;
   padding-left: 2.5rem !important;
+}
+
+/* Add offset to the right side of the navbar */
+.navbar__items--right {
+  margin-right: 25px;
 }
 
 /* 3. Dark Mode Adjustments */
