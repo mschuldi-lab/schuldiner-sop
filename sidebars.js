@@ -17,6 +17,13 @@
 const sidebars = {
   tutorialSidebar: [
     
+    // --- SEPARATOR ---
+    {
+      type: 'html',
+      value: '<span style="border-top: 1px solid #dadde1; margin: 20px 0 10px 0; display: block;"></span><span style="color: #606770; font-size: 0.8em; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">ℹ️ Intro</span>',
+      defaultStyle: true,
+    },
+
     // --- SECTION 1: INTRO / META GUIDES ---
     // Since these are just 2 files in the root, we link them explicitly
     // to ensure they are always first.
@@ -34,7 +41,7 @@ const sidebars = {
     // --- SEPARATOR ---
     {
       type: 'html',
-      value: '<span style="border-top: 1px solid #dadde1; margin: 20px 0 10px 0; display: block;"></span><span style="color: #606770; font-size: 0.8em; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">Original SOP sections</span>',
+      value: '<span style="border-top: 1px solid #dadde1; margin: 20px 0 10px 0; display: block;"></span><span style="color: #606770; font-size: 0.8em; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">📟 Original SOP sections</span>',
       defaultStyle: true,
     },
 
