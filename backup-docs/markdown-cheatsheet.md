@@ -270,17 +270,3 @@ and want to keep it on the same block.
 
 
 
-## YouTube Videos
-
-Standard Markdown doesn't support video embeds, but Docusaurus does via basic HTML or Plugins. 
-
-The simplest way is a thumbnail link:
-
-```markdown
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-```
-
-**Preview**:
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-

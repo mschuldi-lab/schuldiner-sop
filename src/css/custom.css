@@ -84,3 +84,22 @@ html[data-theme='dark'] .navbar__search-input {
 html[data-theme='dark'] .navbar__search-input:focus {
   background-color: #000 !important;
 }
+
+.sidebar-section-header {
+  background-color: #E3E4E5; /* Light grey background */
+  color: #525860;            /* Dark grey text */
+  font-size: 12px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  padding: 8px 12px;         /* Spacing inside the shaded box */
+  margin: 20px 0 8px 0;      /* Spacing outside the box */
+  border-radius: 10px;        /* Rounded corners */
+  display: block;
+}
+
+/* Dark Mode Adjustment */
+[data-theme='dark'] .sidebar-section-header {
+  background-color: #2F2E2D; /* Darker background for dark mode */
+  color: #a7b0bd;            /* Lighter text for contrast */
+}

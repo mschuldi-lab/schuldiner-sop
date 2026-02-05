@@ -35,20 +35,28 @@ Found a typo? Wrong buffer concentration? Want to add a new trick?
 
 ## Part 2: Writing Content and Styling
 
-No need for web designing skills or any level of programming.
 
-The content on the website is written with a Markdown language which is a lightweight markup language for creating formatted text using a plain-text editor.
+**No desing or coding skills required:** The content is written as simple text using "Markdown"
 
-The key goal of markdown is to be readable as-is, with the formatting instructions remaining quite simple.
- 
-Refer to the next section for [a quick guide for writing Markdown formatted content](https://mschuldi-lab.github.io/schuldiner-sop/docs/markdown-cheatsheet)
+**What is Markdown?** It is a lightweight markup language that lets you format text using simple symbols. The goal is to be readable as-is with light formatting instructions.
 
+**Where to find help?**
+
+There is a built-in guide available directly in the editor, but it is small and easy to miss.
+**Look for this icon** at the bottom of the comment box or text editor:
+<svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
+    <path d="M14.85 3c.63 0 1.15.52 1.14 1.15v7.7c0 .63-.51 1.15-1.15 1.15H1.15C.52 13 0 12.48 0 11.84V4.15C0 3.52.52 3 1.15 3ZM9 11V5H7L5.5 7 4 5H2v6h2V8l1.5 1.92L7 8v3Zm2.99.5L14.5 8H13V5h-2v3H9.5Z"></path>
+</svg>
+
+When you click the small **M** icon, it opens the full [GitHub Markdown Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+> You can also bookmark the link above if you are interested to learn advanced formatting.
 
 ## Part 3: Docusaurus Special Features
 
 These features make our wiki look more organized. Use them at your will!
 
-### Admonitions (Callout Boxes)
+### Admonitions (i.e. Callout Boxes)
+
 Use these to highlight critical info.
 
 ```markdown
@@ -90,6 +98,7 @@ Use this for toxic chemicals, radiation, or biohazards.
 ---
 
 ### Collapsible Details
+
 Great for hiding long lists or deep technical details.
 
 ```html
@@ -114,6 +123,7 @@ Great for hiding long lists or deep technical details.
 
 
 ### Tabs
+
 Useful for showing alternatives (e.g., Mac vs PC, or 50mL vs 500mL prep).
 
 ```jsx
@@ -156,15 +166,36 @@ The Golden Rules:
 * Self-Closing Tags: All tags must be closed.
   * ❌ `<br>`, `<img>`, `<hr>`
   * ✅ `<br />`, `<img />`, `<hr />`
+
+
 * Attributes: Use camelCase for attributes.
   * ❌ `class="my-class"`
   * ✅ `className="my-class"`
+
+
 * Inline Styles: Styles must be objects, not strings.
   * ❌ `style="color: red;"`
   * ✅ `style={{ color: 'red', marginTop: '10px' }}`
-* Nesting: You cannot put block elements (like `<div>` or `<h3>`) inside inline elements (like `<p>`). This will crash the build (Hydration Error).
-* Commonly Used Tags:
-  * Layout: `<div>`, `<span>`, `<section>`, `<article>`
-  * Media: `<img />`, `<iframe />` (great for embedding PDFs or Google Docs), `<video>`
 
+
+* Don't nest block elements inside inline elements (like `<div>` or `<h3>` within `<p>`). This will crash the build (Hydration Error).
+
+* Example of common tags:
+  * Layout: `<div>`, `<span>`, `<section>`, `<article>`
+  * Media: `<img />`, `<iframe />` (great for embedding PDFs or Google Docs)
+
+
+### YouTube Videos
+
+Standard Markdown doesn't support video embeds, but Docusaurus does via basic HTML or Plugins. 
+
+The simplest way is a thumbnail link:
+
+```markdown
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bCkCyZvYw_c/maxresdefault.jpg)](https://www.youtube.com/watch?v=bCkCyZvYw_c)
+```
+
+**Preview**:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bCkCyZvYw_c/maxresdefault.jpg)](https://www.youtube.com/watch?v=bCkCyZvYw_c)
 
