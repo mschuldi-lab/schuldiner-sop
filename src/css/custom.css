@@ -4,6 +4,7 @@
  * work well for content-centric websites.
  */
 
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -29,6 +30,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+
+.year_edition{
+  font-size: 2em;
+}
 
 /* --- SEARCH BAR UI IMPROVEMENTS --- */
 
@@ -85,6 +90,9 @@ html[data-theme='dark'] .navbar__search-input:focus {
   background-color: #000 !important;
 }
 
+
+/* --- SIDEBAR SEPARATORS --- */
+
 .sidebar-section-header {
   background-color: #E3E4E5; /* Light grey background */
   color: #525860;            /* Dark grey text */
@@ -105,4 +113,51 @@ html[data-theme='dark'] .navbar__search-input:focus {
   background-color: #2F2E2D; /* Darker background for dark mode */
   color: #a7b0bd;            /* Lighter text for contrast */
   border-bottom-color: '#E3E4E5';
+}
+
+
+/* --- YEAR ANIMATION  --- */
+/* Container */
+.roller {
+  display: inline-block;
+  height: 1.2em;
+  line-height: 1.2em;
+  overflow: hidden;
+  vertical-align: bottom;
+  position: relative;
+}
+
+/* The moving strip */
+#rolltext {
+  position: relative;
+  /* Animation Breakdown (Total 8s):
+     - Short pause on 2008
+     - Fast scroll to 2026
+     - Long pause on 2026
+     - Quick reset
+  */
+  animation: slide-long-roll 3s ease-in-out infinite;
+}
+
+/* Styling for past years */
+.year-past {
+  color: rgba(0, 0, 0, 0.4); /* Ghosted */
+  font-weight: 500;
+}
+
+/* Styling for 2026 */
+.year-current {
+  color: #fff7cc; /* Creamy Yellow */
+  font-weight: 800;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+/* Keyframes */
+@keyframes slide-long-roll {
+
+  0% { top: 0; }
+  5% { top: 0; } /* SHORT PAUSE 2008 */
+  30% { top: -21.6em; }  /* FAST ROLL to 2026 */
+  90% { top: -21.6em; } /* PAUSE on 2026 */
+  100% { opacity: 1; top: 0; }
 }

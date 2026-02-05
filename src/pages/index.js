@@ -74,6 +74,39 @@ function HomepageHeader() {
           Standard Operating Procedures
         </Heading>
 
+        <h2 className="hero__subtitle year_edition">
+          Edition&nbsp;
+          <div className="roller">
+            <div id="rolltext">
+              {/* Start Year */}
+              <div className="year-past">2008</div>
+              
+              {/* The Fast Scroll Years */}
+              <div className="year-past">2009</div>
+              <div className="year-past">2010</div>
+              <div className="year-past">2011</div>
+              <div className="year-past">2012</div>
+              <div className="year-past">2013</div>
+              <div className="year-past">2014</div>
+              <div className="year-past">2015</div>
+              <div className="year-past">2016</div>
+              <div className="year-past">2017</div>
+              <div className="year-past">2018</div>
+              <div className="year-past">2019</div>
+              <div className="year-past">2020</div>
+              <div className="year-past">2021</div>
+              <div className="year-past">2022</div>
+              <div className="year-past">2023</div>
+              <div className="year-past">2024</div>
+              <div className="year-past">2025</div>
+
+              {/* Final Destination */}
+              <div className="year-current">2026</div>
+            </div>
+          </div>
+        </h2>
+        
+
         <img 
           src="/schuldiner-sop/img/SOP_illustration.png" // Added leading slash for better path resolving
           alt="Schuldiner Lab SOP Illustration" // Important for accessibility
@@ -87,11 +120,7 @@ function HomepageHeader() {
             boxShadow: '0 4px 10px rgba(0,0,0,0.2)'  // adds a subtle shadow to make it pop
           }}
         />
-        
-        <h2 className="hero__subtitle">
-          Edition 2025
-        </h2>
-        
+              
         {/* Dynamic Last Update with Time & Author */}
         <div style={{ 
           fontSize: '1.2rem', 
@@ -141,7 +170,7 @@ function HomepageHeader() {
         
         {/* Original SOP Contributors (Static Credit) */}
         <div style={{ marginTop: '1rem', fontSize: '0.8rem', opacity: 0.6 }}>
-          <em>Original SOP Content by: Maya, Rosario, Hadar, Yeynit, Lior, Reut, Ofir, Sarah, Noga, Olga, Dunya, Mor, Din, Hanni & Terry</em> 
+          <em>Original SOP 2025 Content by: Maya, Rosario, Hadar, Yeynit, Lior, Reut, Ofir, Sarah, Noga, Olga, Dunya, Mor, Din, Hanni & Terry</em> 
         </div>
 
       </div>
