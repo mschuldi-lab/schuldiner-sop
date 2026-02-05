@@ -115,7 +115,7 @@ function HomepageHeader() {
             height: 'auto',        // Maintains aspect ratio
             width: '450px',        // Sets a balanced maximum size for desktop
             display: 'block',      // Required for margin auto to work
-            margin: '0 auto 2rem auto', // Center horizontally and add space below
+            margin: '0 auto 1rem auto', // Center horizontally and add space below
             borderRadius: '12px',  // adds a nice rounded corner effect
             boxShadow: '0 4px 10px rgba(0,0,0,0.2)'  // adds a subtle shadow to make it pop
           }}
@@ -123,8 +123,8 @@ function HomepageHeader() {
               
         {/* Dynamic Last Update with Time & Author */}
         <div style={{ 
-          fontSize: '1.2rem', 
-          marginBottom: '2rem', 
+          fontSize: '1.0rem', 
+          marginBottom: '1rem', 
           opacity: 0.9,
           display: 'flex',          // Enables flexible layout
           flexDirection: 'column',  // Stacks items vertically (new lines)
@@ -136,7 +136,7 @@ function HomepageHeader() {
           </span>
           
           {lastUpdate.author && (
-            <span>
+            <span style={{ fontSize: '0.9rem' }}>
               by <strong>@{lastUpdate.author}</strong>
             </span>
           )}
