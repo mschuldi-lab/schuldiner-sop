@@ -50,9 +50,14 @@ There is a built-in guide available directly in the editor, but it is small and 
 
 **Look for the small **M** icon** at the bottom of the comment box or the GitHub text editor:
 
-<a aria-labelledby="blob-markdown-help" href="https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" target="_blank" data-ga-click="Markdown Toolbar, click, help" rel="noreferrer" aria-describedby="blob-markdown-help"><svg aria-hidden="true" focusable="false" class="octicon octicon-markdown" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style={{vertical-align: "text-bottom;"}}><path d="M14.85 3c.63 0 1.15.52 1.14 1.15v7.7c0 .63-.51 1.15-1.15 1.15H1.15C.52 13 0 12.48 0 11.84V4.15C0 3.52.52 3 1.15 3ZM9 11V5H7L5.5 7 4 5H2v6h2V8l1.5 1.92L7 8v3Zm2.99.5L14.5 8H13V5h-2v3H9.5Z"></path></svg></a>
+<a aria-labelledby="blob-markdown-help" href="https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" target="_blank" rel="noreferrer" aria-describedby="blob-markdown-help">
+  <svg aria-hidden="true" focusable="false" className="octicon octicon-markdown" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" display="inline-block" overflow="visible" style={{verticalAlign: 'text-bottom'}}>
+    <path d="M14.85 3c.63 0 1.15.52 1.14 1.15v7.7c0 .63-.51 1.15-1.15 1.15H1.15C.52 13 0 12.48 0 11.84V4.15C0 3.52.52 3 1.15 3ZM9 11V5H7L5.5 7 4 5H2v6h2V8l1.5 1.92L7 8v3Zm2.99.5L14.5 8H13V5h-2v3H9.5Z"></path>
+  </svg>
+</a>
 
 Click on it to open the full [GitHub Markdown Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 > You can also bookmark the link above if you are interested to learn advanced formatting.
 
 ## Part 3: Docusaurus Special Features
