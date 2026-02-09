@@ -17,7 +17,7 @@ slug: /general-lab-stuff
 
 
 :::note
-- Please request specific agar plates for your own experiments from Reut, or ConA plates from Yeynit - at least five working days in advance (preferably one week…).
+- Please request specific agar plates for your own experiments from Lital, or ConA plates from Yeynit - at least five working days in advance (preferably one week…).
 :::
 
 
@@ -25,7 +25,7 @@ slug: /general-lab-stuff
 
 
 :::note
-- If you notice that there is only one sleeve of plates left in the general plates’ fridge, please write it in the media ordering Excel sheet. Same for the AA fridge, the antibiotics boxes and the general liquid media cabinet. For the antibiotics – let Reut know by email.
+- If you notice that there is only one sleeve of plates left in the general plates’ fridge, please write it in the media ordering Excel sheet. Same for the AA fridge, the antibiotics boxes and the general liquid media cabinet. For the antibiotics – let Lital know by email.
 :::
 
 
@@ -42,7 +42,7 @@ slug: /general-lab-stuff
 - If you have a contaminated media bottle, put it in the sink (or if it’s extremely contaminated – in the chemical hood) with 1/10 volume of 100% bleach for 30 min and only then empty it down the drain and rinse well, before placing the bottle on the dirty glassware cart OUTSIDE the lab. Set a timer so that you do not forget it in the sink and please make sure that your name is written on the bottle. If the contamination is too big to go down the sink, empty it into the bio-hazard bin. Afterwards rinse the sink until there is no longer a smell of bleach.
 :::
 
-
+If you see a contamination in a closed bottle or sleeve, either in the general stock or your own, notify Lital and write down the date of the media, and where it was stored.
 
 :::note
 - When growing strains in glass tubes, please put a sticker only on the lid (with one side not stuck hard) – DO NOT put a sticker on the tube itself or write on it with a marker. It is also better to use the “not cryogenic/tough spots” stickers since they are easier to peel off when cleaning, and cheaper. If you still insist on doing other stuff – please remove all before lab cleaning.
@@ -87,7 +87,7 @@ slug: /general-lab-stuff
 
 * Clean the tube of the trap once a week by sucking ethanol or 10% bleach through the tube thus preventing anything from growing in it.
 
-* When you see anything that needs to be bought/ made/ fixed, notify the person in charge of it as soon as possible (if you are not sure who it is, you can always ask Hadar/Reut).
+* When you see anything that needs to be bought/ made/ fixed, notify the person in charge of it as soon as possible (if you are not sure who it is, you can always ask Hadar/Lital).
 
 
 :::note
@@ -121,7 +121,7 @@ slug: /general-lab-stuff
 
 
 :::note
-- We re-use intact and dry ziplock plastic bags for wrapping Singer plates and for chemical waste (stored under Reut’s desk). If they get torn, please put them in plastic recycling. We also reuse round plate plastic bags when people order less than a full sleeve from Reut.
+- We re-use intact and dry ziplock plastic bags for wrapping Singer plates and for chemical waste (stored above Lital's desk). If they get torn, please put them in plastic recycling. We also reuse round plate plastic bags when people order less than a full sleeve from Lital.
 :::
 
 
@@ -143,7 +143,7 @@ slug: /general-lab-stuff
 
 
 :::note
-- We have a lab desk-autoclave that can be used to autoclave only liquids, not glass or plastic ("Dry" autoclave) as there's no drying function (even though there are existing programs called "plastic" and "glass"). If someone wants to use it, please first ask Reut how to do so.
+- We have a lab desk-autoclave that can be used to autoclave only liquids, not glass or plastic ("Dry" autoclave) as there's no drying function (even though there are existing programs called "plastic" and "glass"). If someone wants to use it, please first ask Lital how to do so.
 :::
 
 
