@@ -8,11 +8,11 @@ slug: /microscopy
 
 
 :::note
-- When going to the microscope make sure to take all the correct controls. For all fluorescence measurements you must take a strain with NO fluorophore as background (you will be surprised but yeast have weird auto fluorescent organelles that change in different conditions). For co-localization studies you MUST take strains with each protein tagged individually to check for bleedthrough of the fluorophores. Bleedthrough must be measured separately in each experiment - while there might not be a bleedthrough in one experiment, there might still be in another even though the microscopy settings are the same, because of a protein that is more abundant or with a more concentrated location in the cell which leads to a stronger signal.
+- When going to the microscope make sure to take all the correct controls. For all fluorescence measurements you must take a strain with NO fluorophore as background (you will be surprised but yeast have weird autofluorescent organelles that change in different conditions). For co-localization studies you MUST take strains with each protein tagged individually to check for bleedthrough of the fluorophores. Bleedthrough must be measured separately in each experiment - while there might not be a bleedthrough in one experiment, there might still be in another even though the microscopy settings are the same, because of a protein that is more abundant or with a more concentrated location in the cell which leads to a stronger signal.
 :::
 
 
-* It it important to take an image in brightfield (BF) for future quantifications (that utilize cell segmentation), and to demonstrate the presence of cells and their outlines, in case of no fluorescent signal. When preparing figures for publication, instead of showing the BF, you can also highlight the cell surrounding as dotted white line in the (black) fluorescent picture.
+* It is important to take an image in brightfield (BF) for future quantifications (that utilize cell segmentation), and to demonstrate the presence of cells and their outlines, in case of no fluorescent signal. When preparing figures for publication, instead of showing the BF, you can also highlight the cell surrounding as dotted white line in the (black) fluorescent picture.
 
 * ConA plates are viable for three months. After three months from conA addition, use with caution.
 
