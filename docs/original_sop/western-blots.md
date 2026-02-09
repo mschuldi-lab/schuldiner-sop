@@ -87,7 +87,7 @@ When you take an aliquot, keep that for yourself and use it until it’s finishe
 
 
 :::note
-- When preforming BCA – dilute your samples by 4/5 and always make 2ul extra - in the protocol it’s 25ul per well but works great with a 1:5 dilution and 15ul per well. Whatever you choose, remember to add the same amount of the standards as your samples.
+- When performing BCA – dilute your samples by 4/5 and always make 2ul extra - in the protocol it’s 25ul per well but works great with a 1:5 dilution and 15ul per well. Whatever you choose, remember to add the same amount of the standards as your samples.
 :::
 
 
