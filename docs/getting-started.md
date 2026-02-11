@@ -24,6 +24,10 @@ Found a typo? Wrong buffer concentration? Want to add a new trick?
 3.  Make your changes using the Markdown guide below.
 4.  Scroll down to **"Commit changes"**, write a short description (e.g., "Updated lysis buffer pH"), and click the green button.
 
+5. If you want to make a suggested change (like in "Track changes" from Word) look for the option to "Create a new branch for this commit and start a pull request." after clicking on the green buttong "Commit changes...".
+   This will store your edit on a separate branch and it will request approval before being merged in the document.
+
+
 ### 3. How to Add a New Page
 1.  Click "Edit" on any existing page to enter the folder view on GitHub.
 2.  Navigate to the `docs/` folder.
@@ -207,4 +211,5 @@ The simplest way is a thumbnail link:
 **Preview**:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bCkCyZvYw_c/mqdefault.jpg)](https://www.youtube.com/watch?v=bCkCyZvYw_c)
+
 
