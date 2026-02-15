@@ -27,3 +27,8 @@ slug: /strains-and-media
 :::note
 - Note that yeasts behave differently when they express the various auxotrophy markers (Leu, His, Ura, Met etc.) and even if they have an antibiotic resistance marker (NatR or KanR or HygroR) integrated into it – so use the correct strains as controls for your experiments with the same marker integrated into their genome.
 :::
+
+
+:::note
+If you need to thaw a strain and lack the selection media plates, you can thaw it on YPD without selections BUT grow it O/N in liquid selective media prior to your transformation/experiments. Make sure to take a little yeast as you can, so most of the cells you will end up with has been thoroughly exposed to the selection process. 
+:::
