@@ -40,7 +40,8 @@ We automatically converted our old 2025 Word Document into this website.
 While the robot did a good job, it wasn't perfect! Some paragraphs might be missing, or tables might look weird.
 **We need your help to verify the content.**
 
-:::tip Good News: Curating a section counts as your Annual SOP Contribution! 🏆 :::
+:::tip Good News: Curating a section counts as your Annual SOP Contribution! 🏆 
+:::
 
 Here is the workflow for curation:
 1. **Find a target:** Look for a page that does not have a "Curated by..." line at the top.
@@ -51,10 +52,13 @@ Here is the workflow for curation:
 
 :::warning **Final Step**
 Copy and paste this at the top of the file:
-**Curated by [Your Name] on [Date]**
 :::
+> **Curated by [Your Name] on [Date]**
 
 6. **Save safely:** Select "Create a new branch for this commit and start a pull request" (as shown below) so we can review your fixes.
+
+![Screenshot for proposing changes](static/img/propose-changes.png)
+
 
 ---
 
