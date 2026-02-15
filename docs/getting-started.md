@@ -27,13 +27,34 @@ Found a typo? Wrong buffer concentration? Want to add a new trick?
 5. If you want to make a suggested change (like in "Track changes" from Word) look for the option to "Create a new branch for this commit and start a pull request." after clicking on the green buttong "Commit changes...".
    This will store your edit on a separate branch and it will request approval before being merged in the document.
 
-
 ### 3. How to Add a New Page
 1.  Click "Edit" on any existing page to enter the folder view on GitHub.
 2.  Navigate to the `docs/` folder.
 3.  Click **Add file** > **Create new file**.
 4.  Name your file ending in `.md` (e.g., `new-protocol.md`).
 5.  Add the **Front Matter** at the very top (see below) and start writing!
+
+### 4. Curating SOP's imported content 
+
+We automatically converted our old 2025 Word Document into this website. 
+While the robot did a good job, it wasn't perfect! Some paragraphs might be missing, or tables might look weird.
+**We need your help to verify the content.**
+
+:::tip Good News: Curating a section counts as your Annual SOP Contribution! 🏆 :::
+
+Here is the workflow for curation:
+1. **Find a target:** Look for a page that does not have a "Curated by..." line at the top.
+2. **Open the Source:** Download the [original 2025 SOP Word Document](https://github.com/mschuldi-lab/schuldiner-sop/blob/main/SOP%20Schuldiner%20Lab%202025.docx).
+3. **Compare:** Read the website version side-by-side with the Word doc. Look for missing text, broken lists, or weird formatting (focus mostly on what should have been present on the online version)
+4. **Fix it:** Click Edit this page (✏️) and make corrections.
+5. **Mark as Done:** Once the page is perfect, add this line to the very top of the file so we know it's safe:
+
+:::warning **Final Step**
+Copy and paste this at the top of the file:
+**Curated by [Your Name] on [Date]**
+:::
+
+6. **Save safely:** Select "Create a new branch for this commit and start a pull request" (as shown below) so we can review your fixes.
 
 ---
 
