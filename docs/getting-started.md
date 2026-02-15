@@ -48,12 +48,11 @@ Here is the workflow for curation:
 2. **Open the Source:** Download the [original 2025 SOP Word Document](https://github.com/mschuldi-lab/schuldiner-sop/blob/main/SOP%20Schuldiner%20Lab%202025.docx).
 3. **Compare:** Read the website version side-by-side with the Word doc. Look for missing text, broken lists, or weird formatting (focus mostly on what should have been present on the online version)
 4. **Fix it:** Click Edit this page (✏️) and make corrections.
-5. **Mark as Done:** Once the page is perfect, add this line to the very top of the file so we know it's safe:
 
-:::warning **Final Step**
-Copy and paste this at the top of the file:
-:::
+:::warning **Important**
+5. **Mark as Done:** Once the page is perfect, add this line to the very top of the file so we know it's safe:
 > **Curated by [Your Name] on [Date]**
+:::
 
 6. **Save safely:** Select "Create a new branch for this commit and start a pull request" (as shown below) so we can review your fixes.
 
