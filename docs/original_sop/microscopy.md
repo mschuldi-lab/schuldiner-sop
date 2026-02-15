@@ -8,11 +8,11 @@ slug: /microscopy
 
 
 :::note
-- When going to the microscope make sure to take all the correct controls. For all fluorescence measurements you must take a strain with NO fluorophore as background (you will be surprised but yeast have weird auto fluorescent organelles that change in different conditions). For co-localization studies you MUST take strains with each protein tagged individually to check for bleedthrough of the fluorophores. Bleedthrough must be measured separately in each experiment - while there might not be a bleedthrough in one experiment, there might still be in another even though the microscopy settings are the same, because of a protein that is more abundant or with a more concentrated location in the cell which leads to a stronger signal.
+- When going to the microscope make sure to take all the correct controls. For all fluorescence measurements you must take a strain with NO fluorophore as background (you will be surprised but yeast have weird autofluorescent organelles that change in different conditions). For co-localization studies you MUST take strains with each protein tagged individually to check for bleedthrough of the fluorophores. Bleedthrough must be measured separately in each experiment - while there might not be a bleedthrough in one experiment, there might still be in another even though the microscopy settings are the same, because of a protein that is more abundant or with a more concentrated location in the cell which leads to a stronger signal.
 :::
 
 
-* It it important to take an image in brightfield (BF) for future quantifications (that utilize cell segmentation), and to demonstrate the presence of cells and their outlines, in case of no fluorescent signal. When preparing figures for publication, instead of showing the BF, you can also highlight the cell surrounding as dotted white line in the (black) fluorescent picture.
+* It is important to take an image in brightfield (BF) for future quantifications (that utilize cell segmentation), and to demonstrate the presence of cells and their outlines, in case of no fluorescent signal. When preparing figures for publication, instead of showing the BF, you can also highlight the cell surrounding as dotted white line in the (black) fluorescent picture.
 
 * ConA plates are viable for three months. After three months from conA addition, use with caution.
 
@@ -39,6 +39,11 @@ slug: /microscopy
 - For turning on the EVA microscope: click the main power, wait for start-up noises to finish, turn on the RTC controller (upper shelf) -wait for the two beeps before continuing (the first beep is immediate and strong and the second takes about a minute). Turn on the lasers, wait for a light of “Laser Ready” to appear on the black keys. Then turn on the TPC (little screen on the drawer, to the right of the big PC screen), before opening the software. And the other way around for turning off EVA: first turn off the TPC, then the controllers, then the microscope. While usually always “on”, over the weekend, the tango box (one of the boxes on the shelf) might have been turned off. So, if there are problems, check if it is on and properly communicating (blue light, switch is on the back, not the front as for the other boxes).
 :::
 
+If you are not sure how to define channels for different colors for confocal imaging with Eva, there's a folder on the desktop of Eva's microscope computer, named 'settings for all colors'. 
+In the folder you will find an xml file that you can use to load the settings into ScanR that should support proper imaging of all common four basic fluorescent proteins (blue, green, red, FR) without and bleedthrough between channels.  
+It also loads the definition for 3 long stoke shift channels - this should be used with more care if you choose to use them since there in no combination that currently supports 7 colors. 
+Please do not change the settings in this file.
+***SORA has a different set of filters and light sources, so it does not apply to that. 
 
 
 :::note

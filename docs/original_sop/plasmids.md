@@ -18,10 +18,10 @@ slug: /plasmids
 - When ordering a plasmid from Yoav please make sure to go over the sequence and make sure it is exactly what you requested and the correct backbone.
 :::
 
-
+:::note
 * Whenever you freeze a plasmid make sure to save all relevant data in the folder of “Maps and Sequences” with the plasmid number clearly written on it.
 
 
 :::note
-- Please consider sequencing the entire plasmid from the frozen bacterial stock (in case that mutations happened in the bacterial transformation) – we now have an easy way of doing this through https://www.plasmidsaurus.com/. There is an institutional pickup box in the Meyer building on the second floor next to Rotem Sorek’s lab. Plasmidosauros picks it up every Monday and Wednesday. To order sequencing, please refer to the sequencing protocol: Dropbox folder, under “Protocols”->” Sequence a plasmid with SNPsaurus”.
+- Please consider sequencing the entire plasmid from the frozen bacterial stock (in case that mutations happened in the bacterial transformation) – we now have an easy way of doing this through https://www.plasmidsaurus.com/. There is an institutional pickup box at the Benozyo building next to Yoav's. Plasmidosauros picks it up every Monday and Wednesday mornings. To order sequencing, please refer to the sequencing protocol: Dropbox folder, under “Protocols”->” Sequence a plasmid with SNPsaurus”.
 :::
