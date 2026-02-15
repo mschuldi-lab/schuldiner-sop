@@ -57,7 +57,7 @@ Copy and paste this at the top of the file:
 
 6. **Save safely:** Select "Create a new branch for this commit and start a pull request" (as shown below) so we can review your fixes.
 
-![Screenshot for proposing changes](img/propose-changes.png)
+![Screenshot for proposing changes](../static/img/propose-changes.png)
 
 
 ---
