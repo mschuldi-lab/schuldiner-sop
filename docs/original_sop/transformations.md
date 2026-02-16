@@ -60,7 +60,7 @@ slug: /transformations
 
 * If you want to simply replace a selection marker in your strain, you can do that using designated plasmids in our plasmid list or using primers that will amplify a different selection from a plasmid of choice, where the promoter and terminator are the same as in your strain. This way, there will be a recombination in the promoter and terminator areas flanking the resistance and you will be able to swap it.
 
-* It is very helpful to keep a good and clear file of all your transformations, so you can easily find what you did and with which primers (see suggestion below)
+* It is very helpful to keep a good and clear file of all your transformations, so you can easily find what you did and with which primers (it should include: parental strain, primers and plasmid used for the casette amplification, and primers used for CHK PCR)
 
 * When creating a strain with a contact site reporter using the "split-Venus” method, test both proteins of the contact site reporter, with the two parts of the Venus proteins (VC and VN). In some cases, you can get a better signal with one pair over the other.
 
@@ -70,7 +70,7 @@ slug: /transformations
 
 
 :::note
-- Before performing any genomic modification to a gene, check in SGD if it is essential, if it has close homologs or if it’s overlapping another gene on the opposite strand. If the gene is essential and you still want to ‘delete’ it – consider adding Gal promotor and raise on S-Gal plates until experiment time.
+- Before performing any genomic modification to a gene, check in SGD if it is essential, if it has close homologs or if it’s overlapping another gene on the opposite strand. If the gene is essential and you still want to ‘delete’ it – consider adding Gal promotor and raise on S-Gal plates until experiment time. You can also opt for estradiol induction or for depletion at the protein level with the AID system. Note that in both cases an extra transformation, or starting with a strain that contains the Z3 or TIR1, respectively, is required; since these are two component systems.
 :::
 
 
@@ -80,7 +80,7 @@ slug: /transformations
 :::
 
 
-* When planning Gal-promoter swap transformations think if the transformants would prefer being plated on Gal plates or Raf plates, rather than glucose plates (which would be, in essence, making deletions).
+* When planning Gal-promoter swap transformations think if the transformants would prefer being plated on Gal plates or Raf plates, rather than glucose plates (which would be, in essence, making deletions). Same for estradiol induced strains
 
 
 :::note
@@ -90,18 +90,22 @@ slug: /transformations
 
 * For really sensitive strains you can do a “soft” transformation – 30’ in 30ºC and 15’ in 42ºC. If cells are super sensitive, you can wash them in 10%LiAc buffer instead of DDW, before adding transformation mix.
 
+* You can improve your chances of getting a mutant for very sick strains if you plate in 4% glucose. The extra nutirents will help the mutants survive
+
 * If your transformation does not work twice consider re-ordering the primers. Sometimes even one point mutation in a primer inhibits homologous recombination and this occurs quite frequently!
 
 * If your transformation still does not work after you have ordered new primers, consider doing it in a diploid (BY4743). This way, if the change to the genome was lethal, it will be covered by the second copy, and you can then see that was the reason.
 
 * If a certain CHK PCR does not work repeatedly, make sure you allow enough annealing and extension time in your PCR program. If still does not work- use Kappa Hifi instead of GoTaq.
 
+* If you get no bands at a CHK PCR (including controls like actin), consider growing the cells in liquid to mid-log. In this state the cell wall is thiner and is easier for the NaOH extraction to work. Furthermore, you can make a 3ml starter, spin 50ul of culture, remove the suppernatant and add the NaOH+RNAse mix, and save the rest of the culture for freezing in case your check was positive.
+
 
 :::note
 - Always make sure that you know which ladder you are using and check that your PCR product is the size that you thought it would be. Primer dimers run at the bottom of the gel (often below the smallest ladder marker) and often look like a PCR product, but they are not.
 :::
 
-
+*You can use the new tool Din developed for gel annotations: https://gemini.google.com/share/9368b9d02c48
 
 :::note
 - It is crucial to check a strain that has a visual phenotype with both check PCR AND microscopy before freezing - sometimes the positive colonies in the check PCR will show a different phenotype in the microscope than expected.
